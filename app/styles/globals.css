@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins bg-blue-100 text-gray-800;
+}
+
+.container {
+  max-width: 800px;
+}
+
+footer {
+  margin-top: auto;
+}
