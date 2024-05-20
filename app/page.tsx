@@ -5,9 +5,10 @@ import About from './components/About';
 import Contact from './components/Contact';
 import ScrollProgress from './components/ScrollProgress';
 import TrackElement from './components/TrackElement';
-import Card from './components/Card';
+// import Card from './components/Card';
 import Preloader from './components/Preloader';
-import { Typewriter } from 'react-simple-typewriter';
+import ThreeDCard from './components/ThreeDCard';
+import ConnectWithMe from './components/ConnectWithMe';
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
@@ -20,23 +21,16 @@ const HomePage = () => {
     <>
       <ScrollProgress />
       <div className="container mx-auto p-6 font-poppins">
-        <Card>
+      <ThreeDCard>
+        {/* <Card> */}
           <h1 className="text-3xl font-bold mb-6">Hi there 👋,</h1>
-          <p className="text-lg mb-6">
-            <Typewriter
-              words={['Software Development','Machine Learning', 'Mobile Application Development', 'Artificial Intelligence']}
-              loop={false}
-              cursor
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </p>
-        </Card>
+        
+        {/* </Card> */}
+        </ThreeDCard>
         <About />
         <TrackElement />
         <Contact />
+        <ConnectWithMe />
       </div>
     </>
   );

@@ -6,6 +6,7 @@
 
 body {
   @apply font-poppins bg-blue-100 text-gray-800;
+  background:rgb(0, 0, 0);
 }
 
 .container {
