@@ -3,7 +3,7 @@ const ConnectWithMe = () => {
     return (
         <ThreeDCard>
       <section id="connect" className="p-6 text-center">
-        <h2 className="text-3xl font-bold mb-4">Connect with Me</h2>
+        <h2 className="text-3xl font-bold mb-4">Connect with Me.</h2>
         <div className="flex justify-center space-x-6">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500 transition duration-200">
             <svg

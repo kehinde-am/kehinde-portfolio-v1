@@ -15,15 +15,17 @@ const Contact = () => {
               on something <span className="text-blue-800">cool</span> together
             </h2>
             <p className="text-lg mb-6">
-              <Typewriter
-                words={['Software Development.','Machine Learning.', 'Mobile Application Development.', 'Artificial Intelligence.']}
-                loop={true}
-                cursor
-                cursorStyle="|"
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1000}
-              />
+              <span className="text-white-800">
+                <Typewriter
+                  words={['Software Development.', 'Machine Learning.', 'Mobile Application Development.', 'Artificial Intelligence.']}
+                  loop={true}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
             </p>
           </div>
           <div className="md:w-1/2">

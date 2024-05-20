@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { useState } from 'react';
@@ -22,10 +23,8 @@ const HomePage = () => {
       <ScrollProgress />
       <div className="container mx-auto p-6 font-poppins">
       <ThreeDCard>
-        {/* <Card> */}
           <h1 className="text-3xl font-bold mb-6">Hi there 👋,</h1>
-        
-        {/* </Card> */}
+          <p>I'm available and open to learning on the job</p>
         </ThreeDCard>
         <About />
         <TrackElement />
