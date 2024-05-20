@@ -1,4 +1,4 @@
-
+"use client"
 import { useRef } from 'react';
 import { useInView, useAnimation } from 'framer-motion';
 import { motion } from 'framer-motion';
