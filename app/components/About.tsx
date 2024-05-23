@@ -8,7 +8,7 @@ const About = () => {
       <section id="about" className="p-6">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <p className="text-lg">
-          I am a passionate developer with experience in building modern web applications.
+          I am a passionate developer with experiences in building modern web applications.
           I love creating interactive and visually appealing user experiences.
         </p><br></br>
         <Link href="/resume.pdf" legacyBehavior>

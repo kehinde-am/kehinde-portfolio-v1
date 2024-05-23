@@ -81,7 +81,7 @@ const WorkPage = () => {
         ))}
       </div>
       <div ref={ref} className="mt-6 text-white">
-        {hasMore ? "Loading more work...🤌🏽" : "All work loaded. 😎"}
+        {hasMore ? "Loading more work...🤌🏽" : "All works loaded. 😎"}
       </div>
       <ThreeDCard>
         <Tools />

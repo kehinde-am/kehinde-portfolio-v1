@@ -28,11 +28,10 @@ const HomePage = () => {
       <ScrollProgress />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 font-poppins">
         <ThreeDCard>
-          <h1 className="text-3xl font-bold mb-4 text-center">Hi there
+          <h1 className="text-3xl font-bold mb-4 text-center">Hi there,
             <span className="inline-block ml-2">
               <Image src="/waving-hand.png" alt="Waving Hand" width={40} height={40} unoptimized />
             </span>
-            ,
           </h1>
           <p className="text-lg text-center mb-6">I'm available and open to learning on the job</p>
         </ThreeDCard>
