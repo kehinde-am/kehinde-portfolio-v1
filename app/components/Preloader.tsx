@@ -1,4 +1,3 @@
-// components/Preloader.tsx
 
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
@@ -14,7 +13,7 @@ const Preloader = ({ setLoading }: { setLoading: (loading: boolean) => void }) =
 
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Duration of the preloader
+    }, 3000); 
 
     return () => {
       clearInterval(interval);
