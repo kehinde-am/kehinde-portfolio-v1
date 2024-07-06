@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-// components/Contact.tsx
+
 import { Typewriter } from 'react-simple-typewriter';
 import React from 'react';
 import ThreeDCard from './ThreeDCard';
