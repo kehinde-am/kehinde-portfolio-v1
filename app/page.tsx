@@ -33,7 +33,7 @@ const HomePage = () => {
               <Image src="/waving-hand.png" alt="Waving Hand" width={40} height={40} unoptimized />
             </span>
           </h1>
-          <p className="text-lg text-center mb-6">I'm available and open to learning on the job</p>
+          <p className="text-lg text-center mb-6">I'm available to work  and open to learning on the job</p>
         </ThreeDCard>
         <About />
         <Contact />
