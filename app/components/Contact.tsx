@@ -17,7 +17,7 @@ const Contact = () => {
             <p className="text-lg mb-6">
               <span className="text-white-800">
                 <Typewriter
-                  words={['Software Development.', 'Machine Learning.', 'Mobile Application Development.', 'Artificial Intelligence.']}
+                  words={['Software Development.', 'Machine Learning.', 'Mobile Application Development.', 'Artificial Intelligence.', 'Web Development.','LLMs']}
                   loop={true}
                   cursor
                   cursorStyle="|"
